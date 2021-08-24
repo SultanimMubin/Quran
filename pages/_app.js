@@ -15,17 +15,3 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp
-
-/*
-
-quran => 2 hours
-coding => 4 hours
-migration => 1 hour
-science => 2 hours
-
-
-last sections
-transfer => sultanimmubin => path => quran and science
-professor dave => calculus => 3 done
-
-*/

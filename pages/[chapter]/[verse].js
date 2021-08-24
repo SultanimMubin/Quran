@@ -1,33 +1,21 @@
 const fs = require('fs');
 const path = require('path');
 import Error from 'next/error';
-import Breadcrumb from '../components/Breadcrumb';
 const marked = require("marked");
 
-const index = ({ urlSegments, content, errorCode, type }) => {
-
-    // set title from <h1> or first line with # in markdowns
-    // include disqus maybe
+const ChapterAndVerse = ({ content, errorCode, type }) => {
 
     if (errorCode) {
         return <Error statusCode={errorCode} />
     }
 
     return <>
-        {
-            urlSegments.length === 0
-                ?
-                null
-                :
-                <Breadcrumb urlSegments={urlSegments} />
-        }
         <div className={type + (type === 'markdown' ? ' prose pl-10 mb-10' : '')} dangerouslySetInnerHTML={{ __html: content }}></div>
     </>
 }
 
 export async function getServerSideProps({ params, res }) {
-    const urlSegments = params.path || [];
-    const diskSegments = [process.cwd(), 'contents'].concat(urlSegments);
+    const diskSegments = [process.cwd(), 'contents', 'surahs'].concat(params.chapter, params.verse);
     var filePath = path.join.apply(null, [...diskSegments, 'index.html']);
     if (!fs.existsSync(filePath)) {
         filePath = path.join.apply(null, [...diskSegments, 'index.md']);
@@ -41,7 +29,7 @@ export async function getServerSideProps({ params, res }) {
     console.log(filePath);
     if (!fs.existsSync(filePath)) {
         res.statusCode = 404;
-        const result = { props: { urlSegments: urlSegments, errorCode: 404 } }
+        const result = { props: { chapter: params.chapter, verse: params.verse, errorCode: 404 } }
         return result;
     }
     else {
@@ -55,17 +43,15 @@ export async function getServerSideProps({ params, res }) {
                 }
                 content = marked(content);
             }
-            const result = { props: { urlSegments: urlSegments, content: content, type } };
+            const result = { props: { chapter: params.chapter, verse: params.verse, content: content, type } };
             return result;
         } catch (e) {
             console.log(e);
             res.statusCode = 500;
-            const result = { props: { urlSegments: urlSegments, errorCode: 500 } }
+            const result = { props: { chapter: params.chapter, verse: params.verse, errorCode: 500 } }
             return result;
         }
     }
 }
 
-export default index;
-
-// algabra => 
+export default ChapterAndVerse;
