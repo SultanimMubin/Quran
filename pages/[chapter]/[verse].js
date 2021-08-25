@@ -2,55 +2,59 @@ const fs = require('fs');
 const path = require('path');
 import Error from 'next/error';
 const marked = require("marked");
+import chapters from '../../components/Chapters';
 
-const ChapterAndVerse = ({ content, errorCode, type }) => {
+const ChapterAndVerse = ({ chapter, content, errorCode }) => {
 
     if (errorCode) {
         return <Error statusCode={errorCode} />
     }
 
-    return <>
-        <div className={type + (type === 'markdown' ? ' prose pl-10 mb-10' : '')} dangerouslySetInnerHTML={{ __html: content }}></div>
-    </>
+    content = `<h1>${chapter.name_simple} (${chapter.chapter_number})</h1>`
+        + `<h2>${chapter.name_arabic}</h2>`
+        + content;
+
+    return <div
+        className={' prose pl-10 my-10'}
+        dangerouslySetInnerHTML={{ __html: content }}
+    >
+    </div>
 }
 
+const notFound = { props: { errorCode: 404 } };
+
 export async function getServerSideProps({ params, res }) {
-    const diskSegments = [process.cwd(), 'contents', 'surahs'].concat(params.chapter, params.verse);
-    var filePath = path.join.apply(null, [...diskSegments, 'index.html']);
-    if (!fs.existsSync(filePath)) {
-        filePath = path.join.apply(null, [...diskSegments, 'index.md']);
+    const chapter = params.chapter;
+    const verse = params.verse;
+    if (isNaN(chapter * 1)) {
+        res.statusCode = 404;
+        return notFound;
     }
-    if (!fs.existsSync(filePath)) {
-        filePath = path.join.apply(null, [...diskSegments]) + '.md';
+    if (isNaN(verse * 1)) {
+        res.statusCode = 404;
+        return notFound;
     }
-    if (!fs.existsSync(filePath)) {
-        filePath = path.join.apply(null, [...diskSegments]) + '.html';
-    }
+    const diskSegments = [process.cwd(), 'contents', 'surahs'].concat(chapter.toString().padStart(3, '0'), verse.toString().padStart(3, '0') + '.md');
+    var filePath = path.join.apply(null, [...diskSegments]);
     console.log(filePath);
     if (!fs.existsSync(filePath)) {
         res.statusCode = 404;
-        const result = { props: { chapter: params.chapter, verse: params.verse, errorCode: 404 } }
-        return result;
+        return notFound;
     }
-    else {
-        var type = 'html';
-        try {
-            var content = fs.readFileSync(filePath, 'utf8');
-            if (filePath.endsWith('.md')) {
-                type = 'markdown';
-                if (content.charCodeAt(0) == 65279) {
-                    content = content.slice(1);
-                }
-                content = marked(content);
-            }
-            const result = { props: { chapter: params.chapter, verse: params.verse, content: content, type } };
-            return result;
-        } catch (e) {
-            console.log(e);
-            res.statusCode = 500;
-            const result = { props: { chapter: params.chapter, verse: params.verse, errorCode: 500 } }
-            return result;
+    const chapterJson = (await chapters).filter(i => i.chapter_number == chapter)[0];
+    try {
+        var content = fs.readFileSync(filePath, 'utf8');
+        if (content.charCodeAt(0) == 65279) {
+            content = content.slice(1);
         }
+        content = marked(content);
+        const result = { props: { chapter: chapterJson, content: content } };
+        return result;
+    } catch (e) {
+        console.log(e);
+        res.statusCode = 500;
+        const result = { props: { chapter: chapterJson, errorCode: 500 } }
+        return result;
     }
 }
 

@@ -31,8 +31,6 @@ export async function getServerSideProps({ params, res }) {
         }
     }
 
-    createDirectoriesAndFiles(await chapters);
-
     return { props: {} };
 }
 
