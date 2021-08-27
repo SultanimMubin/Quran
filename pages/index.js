@@ -3,9 +3,22 @@ const path = require('path');
 import React, { useState, useEffect } from 'react';
 import chapters from '../components/Chapters';
 
-const Index = () => {
+const Index = ({ chaptersJson }) => {
 
-    return <div>hi</div>
+    return <>
+        <h1 className="py-4 flex items-center justify-center text-5xl">Quran</h1>
+        <ul id='chapters' className="flex flex-wrap flex-grow mx-12 mb-4">
+        {
+            chaptersJson.map(
+                chapter => <li className="m-1 py-2 px-4 bg-green-200 rounded cursor-pointer hover:bg-green-900 hover:text-white transition-all duration-200">
+                    <div className="text-sm font-bold">{chapter.chapter_number}</div>
+                    <div>{chapter.name_simple}</div>
+                    <div className="text-right">{chapter.name_arabic}</div>
+                </li>
+            )
+        }
+        </ul>
+    </>
 }
 
 export async function getServerSideProps({ params, res }) {
@@ -31,7 +44,11 @@ export async function getServerSideProps({ params, res }) {
         }
     }
 
-    return { props: {} };
+    const chaptersJson = (await chapters);
+
+    console.log(chaptersJson.length);
+
+    return { props: { chaptersJson } };
 }
 
 export default Index;
