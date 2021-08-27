@@ -30,7 +30,16 @@ export async function getServerSideProps({ params, res }) {
         res.statusCode = 404;
         return notFound;
     }
+    if (chapter * 1 > 114 || chapter * 1 < 1) {
+        res.statusCode = 404;
+        return notFound;
+    }
     if (isNaN(verse * 1)) {
+        res.statusCode = 404;
+        return notFound;
+    }
+    const chapterJson = (await chapters).filter(i => i.chapter_number == chapter)[0];
+    if (verse * 1 > chapterJson.verses_count || verse * 1 < 1) {
         res.statusCode = 404;
         return notFound;
     }
@@ -41,7 +50,6 @@ export async function getServerSideProps({ params, res }) {
         res.statusCode = 404;
         return notFound;
     }
-    const chapterJson = (await chapters).filter(i => i.chapter_number == chapter)[0];
     try {
         var content = fs.readFileSync(filePath, 'utf8');
         if (content.charCodeAt(0) == 65279) {
