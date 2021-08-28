@@ -14,7 +14,7 @@ const Index = ({ chaptersJson }) => {
 
     return <>
         <h1 className="py-4 flex items-center justify-center text-5xl font-bold">Quran</h1>
-        <ul id='chapters' className="flex flex-wrap flex-grow mx-12 mb-4">
+        <ul id='chapters' className="flex flex-wrap flex-grow mx-12 mb-4 justify-center">
             {
                 chaptersJson.map(
                     chapter => <li key={chapter.chapter_number} onClick={() => goToChapter(chapter)} className="m-1 py-2 px-4 bg-green-200 rounded cursor-pointer hover:bg-green-900 hover:text-white transition-all duration-200">
