@@ -1,5 +1,7 @@
 - Badr
     - [3:13](https://quran.com/3/13)
     - [3:123](https://quran.com/3/123)
+    - Distance from Medina = 151 km
+    - Distance from Mecca = 320 km
 - Ahzab
     - [33](https://quran.com/33)
