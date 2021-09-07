@@ -10,3 +10,9 @@
     - Diatance from Mecca = 454 km
 - Ahzab
     - [33](https://quran.com/33)
+        - [33:10](https://quran.com/33/10)
+- Khaybar
+    - 48:20-21
+- Conquest of Mecca
+- Hunain
+    - 9:25-26
