@@ -1,0 +1,5 @@
+- Badr
+    - [3:13](https://quran.com/3/13)
+    - [3:123](https://quran.com/3/123)
+- Ahzab
+    - [33](https://quran.com/33)
