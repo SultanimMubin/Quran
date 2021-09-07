@@ -3,5 +3,8 @@
     - [3:123](https://quran.com/3/123)
     - Distance from Medina = 151 km
     - Distance from Mecca = 320 km
+- Uhud
+    - Distance from Medina = 13 km
+    - Diatance from Mecca = 454 km
 - Ahzab
     - [33](https://quran.com/33)
