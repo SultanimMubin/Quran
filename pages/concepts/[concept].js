@@ -4,7 +4,7 @@ import Error from 'next/error';
 const marked = require("marked");
 import { useRouter } from 'next/router'
 
-const index = ({ urlSegments, content, errorCode, type }) => {
+const Concept = ({ urlSegments, content, errorCode, type }) => {
     
     const router = useRouter()
     // set title from <h1> or first line with # in markdowns
@@ -61,6 +61,4 @@ export async function getServerSideProps({ params, res }) {
     }
 }
 
-export default index;
-
-// algabra => 
+export default Concept;
