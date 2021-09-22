@@ -11,3 +11,6 @@
 - [Creating creatures from seed](https://quran.com/6/95)
 - [Wise Judge](https://quran.com/34/26)
 - [Observer of everything](https://quran.com/13/33)
+- [Forgiver of sins and the Acceptor of repentance](https://quran.com/40/31)
+- [Able to do everything](https://quran.com/2/148)
+- 
