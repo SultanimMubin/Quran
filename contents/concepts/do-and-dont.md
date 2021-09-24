@@ -42,4 +42,14 @@ Cultural-social:
 - [Rebellion](https://quran.com/79/37-39)
 - [Oppression](https://quran.com/2/165)
 - [Denying the right](https://quran.com/2/42)
+- [Judging contrary to divine commandments](https://quran.com/5/44)
+- [Misleading others from the way of Allah](https://quran.com/22/8-9)
+- [Destroying temples and mosques](https://quran.com/2/114)
+- [Changing the will of the deads](https://quran.com/2/180-181)
+- [Divide the inheritance before paying the debt or executing the will](https://quran.com/4/11-12)
+- [Using magic](https://quran.com/2/102)
+- [Corrupting on earth](https://quran.com/2/11)
+
+Financial and economic:
+- 
 - 
