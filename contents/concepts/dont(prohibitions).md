@@ -1,5 +1,3 @@
-Do Not:
-
 Forbidden beliefs:
 - [Belief in the Trinity](https://quran.com/4/171)
 - [Infideliting and Denying of Allah](https://quran.com/2/39)
@@ -51,5 +49,38 @@ Cultural-social:
 - [Corrupting on earth](https://quran.com/2/11)
 
 Financial and economic:
-- 
-- 
+- [Usurpation of the property of others](https://quran.com/4/29)
+- [Taking bribes](https://quran.com/2/188)
+- [Usury](https://quran.com/2/275)
+- [Gambling](https://quran.com/2/219)
+- [Misappropriation of orphan property](https://quran.com/4/10)
+- [Taking over the inheritance of others](https://quran.com/89/19)
+- [Low sales](https://quran.com/6/152)
+
+Political and security:
+- [Spying for the enemy](https://quran.com/9/47)
+- [Revealing the secrets of Muslims](https://quran.com/3/118)
+- [Not participating in jihad](https://quran.com/9/81-82)
+- [Torture of believers](https://quran.com/85/4-10)
+- [Weakening against the enemy](https://quran.com/47/35)
+- [Rebellion against the Imam and the Islamic government](https://quran.com/49/9)
+- [Conflict](https://quran.com/5/33)
+- [Disagreement among Muslims](https://quran.com/9/107)
+- [Theft](https://quran.com/5/38)
+
+Sexual behaviors:
+- [Marriage to mother, daughter, sister, aunt, nephew, niece, foster mother, foster sister, mother-in-law, rabbi, spouse of children and grouping between two sisters](https://quran.com/4/23)
+
+- [Marriage to married women](https://quran.com/4/24)
+- [Married to father's wife](https://quran.com/4/19)
+- [Marriage to pagans](https://quran.com/2/221)
+- [Adultery](https://quran.com/24/2-3)
+- [Sodomy](https://quran.com/7/80-81)
+
+Forbidden foods and drinks:
+- [A corpse, An animal whose blood has been shed, Pork, An animal slaughtered in the name of a non-Allah](https://quran.com/5/3)
+- [Animals that die by suffocation, torment, jumping from a height, horning another animal](https://quran.com/5/3)
+- [Half-eaten animals hunted by predators and animals slaughtered for idols](https://quran.com/5/3)
+- [Animal caught with untrained animals](https://quran.com/5/4)
+- [Drinking Wine](https://quran.com/2/219)
+- [Anything Dirty](https://quran.com/7/157)
