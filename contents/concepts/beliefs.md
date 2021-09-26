@@ -10,3 +10,4 @@
 - [Imperialism](https://quran.com/79/20-25)
 - [Tyrannus](https://quran.com/33/67)
 - [pluralism](https://quran.com/3/103)
+- [Individualism](https://quran.com/27/92)
