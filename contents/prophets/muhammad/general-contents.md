@@ -13,7 +13,7 @@
     - [Migration from Mecca to Yathrib (Medina)](https://quran.com/60/1)
 
   - [Endured many wars](https://quran.com/110/1-3) :
-    - [Badr, Uhud, Ahzab, Khyber and the conquest of Mecca]()
+    - [Badr, Uhud, Ahzab, Khyber and the conquest of Mecca](https://github.com/Adel-Laali/Quran/blob/main/contents/concepts/war.md)
 
 ***
 
