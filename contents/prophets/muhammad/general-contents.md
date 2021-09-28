@@ -15,3 +15,11 @@
 
   - [Endured many wars](https://quran.com/110/1-3) :
     - [Badr, Uhud, Ahzab, Khyber and the conquest of Mecca]()
+
+***
+
+- Endured many hardships:
+
+  - [Slander of madness](https://quran.com/68/51)
+  - [Witchcraft (Do Magic)](https://quran.com/10/2)
+  - [Priesthood (Expression of unseen news by claiming to be associated with goblins and demons)](https://quran.com/52/29)
