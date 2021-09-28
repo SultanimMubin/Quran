@@ -1,4 +1,4 @@
-- Aaron :
+- Haroon (Aaron) :
 
   - [Became Moses' successor when Moses went to the Jabal Mousa](https://quran.com/7/142)
   - [Was silent in front of the Samaritan and his calf; So that there is no division](https://quran.com/20/92-94)
