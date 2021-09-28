@@ -1,4 +1,4 @@
-- David :
+- Davood (David) :
 
   - [Obtained a kingdom from Allah](https://quran.com/2/251)
   - [Possessed knowledge and wisdom](https://quran.com/21/79)
