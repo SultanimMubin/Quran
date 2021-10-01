@@ -10,7 +10,7 @@
 
 ***
 
-- Paradise Drinks :
+- Heaven Drinks :
 
   - [Water](https://quran.com/13/35)
   - [Bacchus (Wine)](https://quran.com/76/21)
