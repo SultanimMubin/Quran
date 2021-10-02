@@ -20,6 +20,14 @@
 
 ---
 
+### Seeing Allah
+
+- [7:143](https://quran.com/7/143)
+- [75:22-23](https://quran.com/75/22-23)
+- [18:110](https://quran.com/18/110)
+
+---
+
 ### Floating above (Subhan)
 
 ---
