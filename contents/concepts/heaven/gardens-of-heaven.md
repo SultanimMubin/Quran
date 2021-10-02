@@ -1,4 +1,4 @@
-- [Variety of gardens]()
+- Variety of gardens :
 
   - [Streams flow beneath them](https://quran.com/3/15)
   - [Blessed Gardens](https://quran.com/5/65)
@@ -9,6 +9,4 @@
   - [The evergreen gardens, while their doors are open](https://quran.com/38/50)
   - [Eternal Gardens](https://quran.com/40/8)
   - [Gardens that they will have with Allah whatever they desire](https://quran.com/42/22)
-
-***
-
+  - [Vineyards](https://quran.com/78/32)
