@@ -1,0 +1,8 @@
+- [Reward of the Truthful](https://quran.com/5/119)
+- [Reward of the Martyrs](https://quran.com/3/195)
+- [Reward of the Mujahideen (Devotees)](https://quran.com/3/195)
+- [Reward of the Persecuted](https://quran.com/3/195)
+- [Reward of the Wanderers](https://quran.com/3/195)
+- [Reward of the Immigrants](https://quran.com/3/195)
+- [Reward of faith](https://quran.com/5/84-85)
+- [Reward of faith and righteous deeds](https://quran.com/98/7-8)
