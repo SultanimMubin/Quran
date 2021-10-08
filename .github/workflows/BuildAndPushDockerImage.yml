@@ -1,18 +1,34 @@
-name: Build & Push Docker Image
+name: Build & push Docker image
 
-on:    
+on:
+  schedule:
+    - cron:  '30 7 * * *'
   workflow_dispatch:
 
 jobs:
-  build:
+  buildAndPush:
     runs-on: ubuntu-latest
     steps:
       - name: Get /HolismHolding/Infra
         run: |
           sudo mkdir /HolismHolding
-          sudo chmod -R 777 /HolismHolding
+          sudo chmod 777 /HolismHolding
           cd /HolismHolding
           git clone https://github.com/HolismHolding/Infra
+          
+      - name: Get /HolismDotNet/Infra
+        run: |
+          sudo mkdir /HolismDotNet
+          sudo chmod 777 /HolismDotNet
+          cd /HolismDotNet
+          git clone https://github.com/HolismDotNet/Infra
+
+      - name: Create /Sultanimmubin directory
+        run: |
+          sudo mkdir /Sultanimmubin
+          sudo chmod 777 /Sultanimmubin
+
+      
           
       - name: Get Sultanimmubin/Quran using actions/checkout@v2
         uses: actions/checkout@v2
@@ -20,22 +36,17 @@ jobs:
           repository: Sultanimmubin/Quran
           token: ${{ github.token }}
           path: Sultanimmubin/Quran
-        
       - name: Copy Sultanimmubin/Quran to root
         run: |
-          sudo mkdir /Sultanimmubin
-          sudo chmod -R 777 /Sultanimmubin
-          cp -r $GITHUB_WORKSPACE/Sultanimmubin/Quran /Sultanimmubin/Quran
-      
+          cp -r $GITHUB_WORKSPACE/Sultanimmubin/Quran /Sultanimmubin/Quran    
+          
       - name: Build production docker
         run: |
           cd /Sultanimmubin/Quran
           /HolismHolding/Infra/Commands/Build
-
       - name: Log in to GitHub Container Repository
         run: |
           echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
-
       - name: Push the image
         run: |
           docker push ghcr.io/sultanimmubin/quran:latest
