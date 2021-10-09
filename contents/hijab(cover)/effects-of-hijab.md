@@ -1,0 +1,4 @@
+- [Forgiveness](https://quran.com/33/59)
+- [Earning to the goodness](https://quran.com/24/60)
+- [Purification of the heart](https://quran.com/33/53)
+- [Immunity from inroad](https://quran.com/33/59)
