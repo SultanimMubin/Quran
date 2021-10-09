@@ -1,3 +1,0 @@
-- [Using headscarves, one of the clothing worn by women in the Arabian Peninsula, before the approval of the hijab ruling](https://quran.com/24/31)
-- [Being visible of the breasts, before the approval of the hijab ruling](https://quran.com/24/31)
-- [Using anklets, before the approval of the hijab ruling](https://quran.com/24/31)
