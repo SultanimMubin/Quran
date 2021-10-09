@@ -1,4 +1,4 @@
-Kinds of paradise waters :
+Variety of waters :
 
 - [Spring water](https://quran.com/55/50)
 - [Spring water for the pious](https://quran.com/44/51-52)
