@@ -1,0 +1,5 @@
+- [Abrar (benefactors) reward](https://quran.com/76/12)
+- [Heavenly carpets](https://quran.com/55/54)
+- [Heaven  clothes, made of Diba (gold clothes), thin and thick green](https://quran.com/18/31)
+- [Sands (a thin fabric woven from silk) and asbestos (a thick silk fabric) clothes](https://quran.com/18/31)
+- [Adorning the people of heaven](https://quran.com/35/33)
