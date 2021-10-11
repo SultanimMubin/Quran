@@ -19,7 +19,7 @@
 - [A book for testing believers](https://quran.com/20/2)
 - [Has many promises (rewards and punishments)](https://quran.com/9/11)
 - [A book full of advice](https://quran.com/38/1)
-
+- [It was revealed one after another](https://quran.com/17/106)
 ***
 
 Inviting Muhammad's opponents to bring a Ayah equivalent to a Ayah from the Qur'an:
