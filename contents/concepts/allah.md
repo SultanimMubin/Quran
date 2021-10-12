@@ -1,3 +1,4 @@
+# Characteristics of Allah
 - [Has good names](https://quran.com/7/180)
 - [Allah or the Most Gracious(Al-Rahman)](https://quran.com/17/110)
 - [There is no god but Allah](https://quran.com/20/8)

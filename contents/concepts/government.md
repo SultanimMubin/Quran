@@ -1,3 +1,4 @@
+# Government
 - [Government of Joseph](https://quran.com/12/56)
 - [Government of the house of Ibarahim (Abraham)](https://quran.com/4/54)
 - [Cultural poverty of society and acceptance of tyranny](https://quran.com/43/54)

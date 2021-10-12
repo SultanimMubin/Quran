@@ -1,3 +1,4 @@
+# Vajibat (Obligations)
 - [Worshiping of Allah](https://quran.com/2/21)
 - [Pay Zakat(alms-tax)](https://quran.com/2:43)
 - [Establish prayer](https://quran.com/2:43)

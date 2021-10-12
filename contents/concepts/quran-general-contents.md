@@ -1,3 +1,4 @@
+# General Contents
 - [How Muhammad received the Qur'an  =»  Inspiration, behind the scenes and through angels](https://quran.com/42/51)
 - [The beginning of revelation in the month of Ramadan and the Qadr night](https://quran.com/97/1)
 - [Emphasizing the divinity of the Qur'an by itself](https://quran.com/52/34)

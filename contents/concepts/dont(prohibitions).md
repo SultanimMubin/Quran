@@ -1,3 +1,4 @@
+# Haramat (Prohibitions)
 Forbidden beliefs:
 - [Belief in the Trinity](https://quran.com/4/171)
 - [Infideliting and Denying of Allah](https://quran.com/2/39)
@@ -6,6 +7,8 @@ Forbidden beliefs:
 - [Hypocrisy](https://quran.com/2/8-10)
 - [Denying the divine prophets](https://quran.com/2/87)
 - [Heresy in religion](https://quran.com/2/79)
+
+***
 
 Worship and religion:
 - [Idolatry](https://quran.com/2/22)
@@ -17,6 +20,8 @@ Worship and religion:
 - [Leaving Hajj](https://quran.com/3/9)
 - [hypocrisy](https://quran.com/2/264)
 - [Prostration for other than Allah](https://quran.com/72/18)
+
+***
 
 Ethical-educational:
 - [Harassing the believers](https://quran.com/33/58)
@@ -36,6 +41,8 @@ Ethical-educational:
 - [Suspicion](https://quran.com/49/12)
 - [Defamation](https://quran.com/33/58)
 
+***
+
 Cultural-social:
 - [Rebellion](https://quran.com/79/37-39)
 - [Oppression](https://quran.com/2/165)
@@ -48,6 +55,8 @@ Cultural-social:
 - [Using magic](https://quran.com/2/102)
 - [Corrupting on earth](https://quran.com/2/11)
 
+***
+
 Financial and economic:
 - [Usurpation of the property of others](https://quran.com/4/29)
 - [Taking bribes](https://quran.com/2/188)
@@ -56,6 +65,8 @@ Financial and economic:
 - [Misappropriation of orphan property](https://quran.com/4/10)
 - [Taking over the inheritance of others](https://quran.com/89/19)
 - [Low sales](https://quran.com/6/152)
+
+***
 
 Political and security:
 - [Spying for the enemy](https://quran.com/9/47)
@@ -68,14 +79,17 @@ Political and security:
 - [Disagreement among Muslims](https://quran.com/9/107)
 - [Theft](https://quran.com/5/38)
 
+***
+
 Sexual behaviors:
 - [Marriage to mother, daughter, sister, aunt, nephew, niece, foster mother, foster sister, mother-in-law, rabbi, spouse of children and grouping between two sisters](https://quran.com/4/23)
-
 - [Marriage to married women](https://quran.com/4/24)
 - [Married to father's wife](https://quran.com/4/19)
 - [Marriage to pagans](https://quran.com/2/221)
 - [Adultery](https://quran.com/24/2-3)
 - [Sodomy](https://quran.com/7/80-81)
+
+***
 
 Forbidden foods and drinks:
 - [A corpse, An animal whose blood has been shed, Pork, An animal slaughtered in the name of a non-Allah](https://quran.com/5/3)

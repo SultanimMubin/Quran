@@ -1,3 +1,4 @@
+# Salat
 General content:
 - [Appreciators of prayer](https://quran.com/24/37)
 - [The importance of holding prayers along with paying zakat(alms-tax)](https://quran.com/9/11)
