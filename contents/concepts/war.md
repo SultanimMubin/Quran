@@ -1,3 +1,4 @@
+# Wars
 Rules of war:
 - [To Defend against aggression.](https://quran.com/2/193)
 - [To Repel the dangers and sedition of the enemy.](https://quran.com/2/193)
