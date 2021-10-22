@@ -14,3 +14,7 @@
 ---
 
 - Patterns
+
+---
+
+https://youtu.be/gV8_z80CnEo
