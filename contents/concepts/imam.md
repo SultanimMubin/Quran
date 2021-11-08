@@ -3,7 +3,7 @@
 - [11:17](https://quran.com/11/17)
 - [15:79](https://quran.com/15/79)
 - [17:71](https://quran.com/17/71)
-- [21/73](https://quran.com/21/73)
+- [21:73](https://quran.com/21/73)
 - [25:74](https://quran.com/25/74)
 - [28:5](https://quran.com/28/5)
 - [28:41](https://quran.com/28/41)
