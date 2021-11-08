@@ -1,6 +1,6 @@
 - [2:124](https://quran.com/2/124)
 - [9:12](https://quran.com/9/12)
-- [11:7](https://quran.com/11/7)
+- [11:17](https://quran.com/11/17)
 - [15:79](https://quran.com/15/79)
 - [17:71](https://quran.com/17/71)
 - [21/73](https://quran.com/21/73)
