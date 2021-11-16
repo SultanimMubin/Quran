@@ -3,3 +3,4 @@
 - [86:6](https://quran.com/86/6)
 - [4:23](https://quran.com/4/23)
 - [78:33](http://quran.com/78/33)
+- [24:59](https://quran.com/24/59)
