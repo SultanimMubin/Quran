@@ -1,6 +1,6 @@
 # Commands
 
-- 
+- [41:53](https://quran.com/41/53)
 
 # Descriptions
 
