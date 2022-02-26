@@ -35,4 +35,20 @@
 - Seppuku
 - Human sacrifice
 - Mormonism and polygamy
-- 
+- [Good & evil](https://en.wikipedia.org/wiki/Good_and_evil)
+
+---
+
+### Personal
+
+- Friendship between boys and girls
+    - I thought it's OK, based on mutual consent
+    - Quran strictly forbids it
+        - [5:5](https://quran.com/5/5)
+            - Muhsinin
+            - Ghayra musafihin
+            - La muttakhizi akhdan
+        - [4:25](https://quran.com/4/25)
+            - Muhsanat
+            - Ghayra musafihat
+            - La muttakhizati akhdan

@@ -6,3 +6,4 @@
 - [Dua](dua)
 - [Salat](salat)
 - [Seemingly wrong ayah boundaries](seemingly-wrong-ayah-boundaries)
+- [Good & bad](good-and-bad)

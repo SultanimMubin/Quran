@@ -1,11 +1,11 @@
 const fs = require('fs');
 const path = require('path');
 import Error from 'next/error';
-const marked = require("marked");
+import { marked } from 'marked';
 import { useRouter } from 'next/router'
 
 const Concept = ({ urlSegments, content, errorCode, type }) => {
-    
+
     const router = useRouter()
     // set title from <h1> or first line with # in markdowns
     // include disqus maybe
@@ -48,7 +48,7 @@ export async function getServerSideProps({ params, res }) {
                 if (content.charCodeAt(0) == 65279) {
                     content = content.slice(1);
                 }
-                content = marked(content);
+                content = marked.parse(content);
             }
             const result = { props: { urlSegments: urlSegments, content: content, type } };
             return result;
