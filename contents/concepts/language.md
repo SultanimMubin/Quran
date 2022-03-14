@@ -1,1 +1,3 @@
 - [2:31](https://quran.com/2/31)
+- [55:4](https://quran.com/55/4)
+- [30:22](https://quran.com/30/22)
