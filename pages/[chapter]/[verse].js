@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 import Error from 'next/error';
-const marked = require("marked");
+import { marked } from 'marked';
 import chapters from '../../components/Chapters';
 
 const ChapterAndVerse = ({ chapter, content, errorCode, verse, verseText }) => {
@@ -12,7 +12,7 @@ const ChapterAndVerse = ({ chapter, content, errorCode, verse, verseText }) => {
 
     content = `<h1>${chapter.name_simple} - ${chapter.name_arabic}</h1>`
         + `<h2>${chapter.chapter_number} - ${verse}</h2>`
-        + `<p>${verseText}</p>`
+        + `<p class="text-2xl leading-10" dir="rtl">${verseText}</p>`
         + content;
 
     return <div
@@ -52,21 +52,21 @@ export async function getServerSideProps({ params, res }) {
         return notFound;
     }
     var verseText = await fetch(`https://api.alquran.cloud/v1/ayah/${chapter * 1}:${verse * 1}`)
-    .then(response => {
-        return response.json();
-    })
-    .then(data => {
-        return data.data.text;
-    })
-    .catch(error => {
-        console.log(error);
-    });
+        .then(response => {
+            return response.json();
+        })
+        .then(data => {
+            return data.data.text;
+        })
+        .catch(error => {
+            console.log(error);
+        });
     try {
         var content = fs.readFileSync(filePath, 'utf8');
         if (content.charCodeAt(0) == 65279) {
             content = content.slice(1);
         }
-        content = marked(content);
+        content = marked.parse(content);
         const result = { props: { chapter: chapterJson, content: content, verseText: verseText, verse: verse * 1 } };
         return result;
     } catch (e) {
