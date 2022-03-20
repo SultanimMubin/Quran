@@ -13,6 +13,7 @@ const ChapterAndVerse = ({ chapter, content, errorCode, verse, verseText }) => {
     content = `<h1>${chapter.name_simple} - ${chapter.name_arabic}</h1>`
         + `<h2>${chapter.chapter_number} - ${verse}</h2>`
         + `<p class="text-2xl leading-10" dir="rtl">${verseText}</p>`
+        + `<div><a target="_blank" href="https://corpus.quran.com/wordbyword.jsp?chapter=${chapter.chapter_number}&verse=${verse}">Corpus</a></div>`
         + content;
 
     return <div
