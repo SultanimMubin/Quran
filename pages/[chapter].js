@@ -20,7 +20,7 @@ const ChapterAndVerse = ({ chapter, errorCode }) => {
         <ul id='verses' className="flex flex-wrap mx-12 mb-4 justify-center">
             {
                 Array(chapter.verses_count).fill().map(
-                    (x, i) => <li key={i} onClick={() => goToVerse(i)} className="p-4 m-2 bg-green-200 rounded hover:bg-green-900 hover:text-white transition-all duration-200 cursor-pointer w-16 flex items-center justify-center">
+                    (x, i) => <li key={i} onClick={() => goToVerse(i + 1)} className="p-4 m-2 bg-green-200 rounded hover:bg-green-900 hover:text-white transition-all duration-200 cursor-pointer w-16 flex items-center justify-center">
                         {i + 1}
                     </li>)
             }
