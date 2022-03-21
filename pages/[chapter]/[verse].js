@@ -3,8 +3,9 @@ const path = require('path');
 import Error from 'next/error';
 import { marked } from 'marked';
 import chapters from '../../components/Chapters';
+import getAhlolbaitUrl from '../../contents/ahlolbait'
 
-const ChapterAndVerse = ({ chapter, content, errorCode, verse, verseText }) => {
+const ChapterAndVerse = ({ chapter, content, errorCode, verse, verseText, corpusUrl, ahlolbaitUrl }) => {
 
     if (errorCode) {
         return <Error statusCode={errorCode} />
@@ -13,7 +14,8 @@ const ChapterAndVerse = ({ chapter, content, errorCode, verse, verseText }) => {
     content = `<h1>${chapter.name_simple} - ${chapter.name_arabic}</h1>`
         + `<h2><a target="_blank" href="https://quran.com/${chapter.chapter_number}/${verse}">${chapter.chapter_number} - ${verse}</a></h2>`
         + `<p class="text-2xl leading-10 pr-10" dir="rtl">${verseText}</p>`
-        + `<div><a target="_blank" href="https://corpus.quran.com/wordbyword.jsp?chapter=${chapter.chapter_number}&verse=${verse}">Corpus</a></div>`
+        + `<div><a target="_blank" href="${corpusUrl}">Corpus</a></div>`
+        + `<div><a target="_blank" href="${ahlolbaitUrl}">Ahlolbait</a></div>`
         + content;
 
     return <div
@@ -68,7 +70,18 @@ export async function getServerSideProps({ params, res }) {
             content = content.slice(1);
         }
         content = marked.parse(content);
-        const result = { props: { chapter: chapterJson, content: content, verseText: verseText, verse: verse * 1 } };
+        const ahlolbaitUrl = getAhlolbaitUrl(chapterJson.chapter_number, verse * 1)
+        const corpusUrl = `https://corpus.quran.com/wordbyword.jsp?chapter=${chapterJson.chapter_number}&verse=${verse * 1}`
+        const result = {
+            props: {
+                chapter: chapterJson,
+                content,
+                verseText,
+                verse: verse * 1,
+                corpusUrl,
+                ahlolbaitUrl
+            }
+        };
         return result;
     } catch (e) {
         console.log(e);
