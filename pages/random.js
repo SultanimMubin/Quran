@@ -2,7 +2,7 @@ import quran from "../contents/quran"
 
 const Random = ({ chapter, verse }) => {
     return <div>
-        <a target='_blank' href={`https://quran.com/${chapter}/${verse}`}>{chapter}:{verse}</a>
+        <a target='_blank' href={`/${chapter}/${verse}`}>{chapter}:{verse}</a>
     </div>
 }
 
