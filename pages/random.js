@@ -1,8 +1,19 @@
+import { useEffect, useRef } from 'react'
 import quran from "../contents/quran"
 
 const Random = ({ chapter, verse }) => {
-    return <div className="flex w-screen h-screen items-center justify-center">
-        <a className="text-5xl" target='_blank' href={`/${chapter}/${verse}`}>{chapter}:{verse}</a>
+
+    const link = useRef()
+
+    const reload = () => {
+        link.current.click()
+        setTimeout(() => {
+            window.location.reload()
+        }, 1000)
+    }
+
+    return <div onClick={() => reload()} className="flex w-screen h-screen items-center justify-center">
+        <a ref={link} className="text-5xl" target='_blank' href={`/${chapter}/${verse}`}>{chapter}:{verse}</a>
     </div>
 }
 
