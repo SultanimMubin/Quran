@@ -1,3 +1,4 @@
 # الْأَسْمَاءُ الْحُسْنَى
 ## Alasma'ulhusna
 
+[Quran](https://ar.wikipedia.org/wiki/%D8%A3%D8%B3%D9%85%D8%A7%D8%A1_%D8%A7%D9%84%D9%84%D9%87_%D8%A7%D9%84%D8%AD%D8%B3%D9%86%D9%89#%D8%A3%D8%B3%D9%85%D8%A7%D8%A1_%D8%A7%D9%84%D9%84%D9%87_%D8%A7%D9%84%D8%AD%D8%B3%D9%86%D9%89_%D9%83%D9%85%D8%A7_%D8%AC%D8%A7%D8%A1%D8%AA_%D9%81%D9%8A_%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86)
