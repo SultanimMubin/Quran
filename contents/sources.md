@@ -1,5 +1,6 @@
 # Sources
 
+- [Corpus Coranicum](https://corpuscoranicum.de/en/)
 - [Quran.com](https://quran.com) for content, translations, and interpretations
 - [Quran app](https://play.google.com/store/apps/details?id=com.quran.labs.androidquran&hl=en&gl=US) for Android
 - [Ahlolbait wiki](http://wiki.ahlolbait.com) for Persian translations and interpretations
