@@ -1,0 +1,7 @@
+- two sections
+  - ressurection (hereafter)
+  - prophethood
+- claimed makki
+  - subject matter + style + theme
+- takwir = familly II
+  - folding up
