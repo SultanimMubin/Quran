@@ -13,3 +13,6 @@ For reading the entire Quran
         - [حالت مفعولی](https://fa.wikipedia.org/wiki/حالت_مفعولی)
         - [نصب (نحو)](https://ar.wikipedia.org/wiki/نصب_(نحو))
         - [Accusatif](https://fr.wikipedia.org/wiki/Accusatif)
+    - Conditional mood
+        - [وجه شرطی](https://fa.wikipedia.org/wiki/وجه_شرطی)
+    - Jussive mood (no Persian equivalent)
