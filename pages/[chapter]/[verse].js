@@ -16,6 +16,7 @@ const ChapterAndVerse = ({ chapter, content, errorCode, verse, verseText, corpus
         + `<p class="text-2xl leading-10 pr-10" dir="rtl">${verseText}</p>`
         + `<div><a target="_blank" href="${corpusUrl}">Corpus</a></div>`
         + `<div><a target="_blank" href="${ahlolbaitUrl}">Ahlolbait</a></div>`
+        + `<hr />`
         + content;
 
     return <div
