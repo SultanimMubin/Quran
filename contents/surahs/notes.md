@@ -16,3 +16,9 @@ For reading the entire Quran
     - Conditional mood
         - [وجه شرطی](https://fa.wikipedia.org/wiki/وجه_شرطی)
     - Jussive mood (no Persian equivalent)
+    - Imperfect
+        - [أَخَافُ](https://corpus.quran.com/wordmorphology.jsp?location=(39:13:3))
+            - فعل مضارع
+            - 1st person singular imperfect verb
+        - [می ترسیدم not می ترسم](https://en.wikipedia.org/wiki/Imperfect#Persian)
+    - 
