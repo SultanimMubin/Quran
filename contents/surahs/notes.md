@@ -21,4 +21,8 @@ For reading the entire Quran
             - فعل مضارع
             - 1st person singular imperfect verb
         - [می ترسیدم not می ترسم](https://en.wikipedia.org/wiki/Imperfect#Persian)
-    - 
+    - Superlative adjective
+        - [أَعْلَمُ](https://corpus.quran.com/wordmorphology.jsp?location=(20:104:2))
+            - nominative masculine singular noun
+            - اسم مرفوع
+        - [صفت برتر](https://fa.wikipedia.org/wiki/صفت_برتر)

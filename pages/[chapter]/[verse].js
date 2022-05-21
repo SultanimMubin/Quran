@@ -12,8 +12,8 @@ const ChapterAndVerse = ({ chapter, content, errorCode, verse, verseText, corpus
     }
 
     content = 
-        '<div class="grid grid-cols-2 gap-6">'
-            + '<div class="prose pl-10 my-10">'
+        '<div class="md:grid grid-cols-2 gap-6">'
+            + '<div class="prose p-5 m-5">'
                 + `<h1>${chapter.name_simple} - ${chapter.name_arabic}</h1>`
                 + `<h2><a target="_blank" href="https://quran.com/${chapter.chapter_number}/${verse}">${chapter.chapter_number} - ${verse}</a></h2>`
                 + `<p class="text-2xl leading-10 pr-10" dir="rtl">${verseText}</p>`
@@ -21,7 +21,7 @@ const ChapterAndVerse = ({ chapter, content, errorCode, verse, verseText, corpus
                 + `<div><a target="_blank" href="${ahlolbaitUrl}">Ahlolbait</a></div>`
                 + `<div><a target="_blank" href="https://quran.com/${chapter.chapter_number}/${verse}?translations=131,85,17,207,149,19,167,84,203,206,20,95,171,57,22,173,136,31,779,233,81,143,118,29,135,172,210,77,52,124,112,158,234,54,156,151,97,101,127,55,122">Translations</a></div>`
             + '</div>'
-            + '<div class="prose pl-10 my-10">'
+            + '<div class="prose p-5 m-5">'
                 + content
             + '</div>'
         + '</div>'
