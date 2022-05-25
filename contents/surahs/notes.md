@@ -26,3 +26,6 @@ For reading the entire Quran
             - nominative masculine singular noun
             - اسم مرفوع
         - [صفت برتر](https://fa.wikipedia.org/wiki/صفت_برتر)
+    - Subjunctive mood
+        - [الصيغة الشرطية](https://ar.wikipedia.org/wiki/الصيغة_الشرطية)
+        - [وجه التزامی](https://fa.wikipedia.org/wiki/وجه_التزامی)
