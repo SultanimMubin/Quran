@@ -16,6 +16,9 @@ For reading the entire Quran
     - Conditional mood
         - [وجه شرطی](https://fa.wikipedia.org/wiki/وجه_شرطی)
     - Jussive mood (no Persian equivalent)
+        - Claimed: indirect command
+        - contrary translations:
+            - [4:100](https://quran.com/4/100)
     - Imperfect
         - [أَخَافُ](https://corpus.quran.com/wordmorphology.jsp?location=(39:13:3))
             - فعل مضارع
